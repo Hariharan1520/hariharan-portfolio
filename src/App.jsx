@@ -4,6 +4,7 @@ import Hero from './components/Hero';
 import About from './components/About';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
+import Internship from './components/Internship';
 import Achievements from './components/Achievements';
 import Certifications from './components/Certifications';
 import Leadership from './components/Leadership';
@@ -25,6 +26,7 @@ export default function App() {
           <About />
           <Skills />
           <Projects />
+          <Internship />
           <Achievements />
           <Certifications />
           <Leadership />

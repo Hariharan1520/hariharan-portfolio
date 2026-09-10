@@ -21,6 +21,7 @@ export const navLinks = [
   { id: "work", label: "WORK", href: "#projects" },
   { id: "about", label: "ABOUT", href: "#about" },
   { id: "skills", label: "SKILLS", href: "#skills" },
+  { id: "internship", label: "EXPERIENCE", href: "#internship" },
   { id: "achievements", label: "ACHIEVEMENTS", href: "#achievements" },
   { id: "certifications", label: "CERTIFICATIONS", href: "#certifications" },
   { id: "leadership", label: "LEADERSHIP", href: "#leadership" },
@@ -156,8 +157,25 @@ export const projectsSectionData = {
   sectionFooter: "MORE THAN A MODEL • BUILDING COMPLETE SYSTEMS"
 };
 
+export const internshipData = {
+  sectionLabel: "04 / EXPERIENCE",
+  mainHeading: "INTERNSHIP",
+  supportingText: "Real-world engineering experience delivering data analytics and forecasting systems for business strategy.",
+  role: "Data Analyst Intern",
+  organization: "CUBE AI SOLUTIONS — TIRUCHENGODE",
+  location: "Tiruchengode",
+  duration: "Jun 2025 — Oct 2025",
+  description: "Designed and delivered a sales analytics and forecasting system for a real client, using dashboards and forecasting models to support business strategy, demand planning and performance tracking.",
+  metaDetails: [
+    { label: "ROLE", value: "Data Analyst Intern" },
+    { label: "ORGANIZATION", value: "CUBE AI SOLUTIONS" },
+    { label: "LOCATION", value: "Tiruchengode" },
+    { label: "DURATION", value: "Jun 2025 — Oct 2025" },
+  ],
+};
+
 export const achievementsSectionData = {
-  sectionLabel: "04 / ACHIEVEMENTS",
+  sectionLabel: "05 / ACHIEVEMENTS",
   mainHeading: "HONORS & RECOGNITION",
   supportingText: "Verified certificates earned through technical competitions, paper presentations, pitch showcases, and problem-solving.",
   achievements: [
@@ -215,7 +233,7 @@ export const achievementsSectionData = {
 };
 
 export const certificationsSectionData = {
-  sectionLabel: "05 / CERTIFICATIONS",
+  sectionLabel: "06 / CERTIFICATIONS",
   mainHeading: "CERTIFICATIONS",
   supportingText: "Verified certificates across AI, machine learning, data science, databases, and software engineering.",
   certifications: [
@@ -295,16 +313,9 @@ export const certificationsSectionData = {
 };
 
 export const leadershipSectionData = {
-  sectionLabel: "06 / LEADERSHIP",
+  sectionLabel: "07 / LEADERSHIP",
   mainHeading: "LEADERSHIP & INVOLVEMENT",
   supportingText: "Beyond technical work, I take an active role in leadership, collaboration, and student activities.",
-  featured: {
-    number: "01",
-    role: "President",
-    organization: "IGNITE, Dr. MCET",
-    imageKey: "ignite",
-    highlight: true,
-  },
   items: [
     {
       number: "01",
@@ -338,7 +349,7 @@ export const leadershipSectionData = {
 };
 
 export const contactSectionData = {
-  sectionLabel: "07 / CONTACT",
+  sectionLabel: "08 / CONTACT",
   mainHeadingLine1: "LET'S BUILD",
   mainHeadingLine2: "SOMETHING USEFUL.",
   supportingText: "Have an opportunity, project, or idea worth discussing? I'd be happy to connect.",
@@ -372,6 +383,7 @@ export const footerData = {
     { label: "ABOUT", href: "#about" },
     { label: "SKILLS", href: "#skills" },
     { label: "PROJECTS", href: "#projects" },
+    { label: "EXPERIENCE", href: "#internship" },
     { label: "ACHIEVEMENTS", href: "#achievements" },
     { label: "CERTIFICATIONS", href: "#certifications" },
     { label: "LEADERSHIP", href: "#leadership" },
