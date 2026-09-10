@@ -1,0 +1,103 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* 
+  ==========================================================================
+  DESIGN SYSTEM: PREMIUM EDITORIAL AI ENGINEER PORTFOLIO (POLISHED PASS)
+  ==========================================================================
+*/
+
+:root {
+  /* Warm Charcoal Canvas & Editorial Surfaces */
+  --bg-primary: #0a0d14;
+  --bg-secondary: #121622;
+  --bg-card: rgba(18, 22, 34, 0.55);
+  --bg-card-hover: rgba(24, 30, 46, 0.75);
+
+  --border-subtle: rgba(255, 255, 255, 0.07);
+  --border-highlight: rgba(59, 130, 246, 0.25);
+
+  /* Accent: Single Restrained Electric Blue */
+  --accent-blue: #3b82f6;
+  --accent-blue-hover: #2563eb;
+  --accent-blue-subtle: rgba(59, 130, 246, 0.12);
+
+  /* Refined Typography Color Tokens */
+  --text-primary: #f8fafc;
+  --text-secondary: #94a3b8;
+  --text-tertiary: #64748b;
+
+  --max-content-width: 1240px;
+}
+
+@layer base {
+  * {
+    border-color: var(--border-subtle);
+  }
+
+  body {
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+@layer components {
+  /* Editorial Panel & Cards */
+  .editorial-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border-subtle);
+    border-radius: 0.75rem;
+    transition: all 0.3s cubic-bezier(0.25, 0.1, 0.25, 1.0);
+  }
+
+  .editorial-card-interactive {
+    background: var(--bg-card);
+    border: 1px solid var(--border-subtle);
+    border-radius: 0.75rem;
+    transition: all 0.3s cubic-bezier(0.25, 0.1, 0.25, 1.0);
+  }
+
+  .editorial-card-interactive:hover {
+    background: var(--bg-card-hover);
+    border-color: var(--border-highlight);
+    transform: translateY(-2px);
+  }
+
+  /* Typography Scale & Gradient Refinement */
+  .font-mono-tag {
+    font-family: 'JetBrains Mono', monospace;
+  }
+
+  .text-gradient-subtle {
+    background: linear-gradient(135deg, #ffffff 40%, #94a3b8 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  /* Desaturated, sophisticated accent gradient */
+  .text-gradient-accent {
+    background: linear-gradient(135deg, #ffffff 45%, #93c5fd 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+/* Custom Sleek Scrollbar */
+::-webkit-scrollbar {
+  width: 7px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-primary);
+}
+::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #334155;
+}
