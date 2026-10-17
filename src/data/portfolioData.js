@@ -22,6 +22,7 @@ export const navLinks = [
   { id: "about", label: "ABOUT", href: "#about" },
   { id: "skills", label: "SKILLS", href: "#skills" },
   { id: "internship", label: "EXPERIENCE", href: "#internship" },
+  { id: "blog", label: "BLOG", href: "#blog" },
   { id: "achievements", label: "ACHIEVEMENTS", href: "#achievements" },
   { id: "certifications", label: "CERTIFICATIONS", href: "#certifications" },
   { id: "leadership", label: "LEADERSHIP", href: "#leadership" },
@@ -174,8 +175,24 @@ export const internshipData = {
   ],
 };
 
+export const writingData = {
+  sectionLabel: "05 / PUBLISHED WORK",
+  mainHeading: "BLOG & ANALYSIS",
+  supportingText: "Research, analysis, and data-driven perspectives on cricket and performance.",
+  article: {
+    title: "The Rotation Trap: When Singles Against Spin Do Not Match Scoring Tempo",
+    url: "https://medium.com/@hariharan8438431/the-rotation-trap-when-singles-against-spin-do-not-match-scoring-tempo-e75909bdc44b",
+    platform: "Medium",
+    category: "Cricket Analytics",
+    supportingCategories: ["Data Analysis", "Sports Analytics"],
+    description: "A ball-by-ball investigation into Tilak Varma’s 2026 T20 batting, exploring the gap between rotating strike against spin and maintaining scoring pressure through boundaries. Combines IPL and international context with phase-based comparisons, methodology notes, and data limitations.",
+    metadata: "MEDIUM · SPORTS ANALYTICS",
+    ctaText: "READ ARTICLE",
+  },
+};
+
 export const achievementsSectionData = {
-  sectionLabel: "05 / ACHIEVEMENTS",
+  sectionLabel: "06 / ACHIEVEMENTS",
   mainHeading: "HONORS & RECOGNITION",
   supportingText: "Verified certificates earned through technical competitions, paper presentations, pitch showcases, and problem-solving.",
   achievements: [
@@ -233,7 +250,7 @@ export const achievementsSectionData = {
 };
 
 export const certificationsSectionData = {
-  sectionLabel: "06 / CERTIFICATIONS",
+  sectionLabel: "07 / CERTIFICATIONS",
   mainHeading: "CERTIFICATIONS",
   supportingText: "Verified certificates across AI, machine learning, data science, databases, and software engineering.",
   certifications: [
@@ -313,7 +330,7 @@ export const certificationsSectionData = {
 };
 
 export const leadershipSectionData = {
-  sectionLabel: "07 / LEADERSHIP",
+  sectionLabel: "08 / LEADERSHIP",
   mainHeading: "LEADERSHIP & INVOLVEMENT",
   supportingText: "Beyond technical work, I take an active role in leadership, collaboration, and student activities.",
   items: [
@@ -349,7 +366,7 @@ export const leadershipSectionData = {
 };
 
 export const contactSectionData = {
-  sectionLabel: "08 / CONTACT",
+  sectionLabel: "09 / CONTACT",
   mainHeadingLine1: "LET'S BUILD",
   mainHeadingLine2: "SOMETHING USEFUL.",
   supportingText: "Have an opportunity, project, or idea worth discussing? I'd be happy to connect.",
@@ -384,6 +401,7 @@ export const footerData = {
     { label: "SKILLS", href: "#skills" },
     { label: "PROJECTS", href: "#projects" },
     { label: "EXPERIENCE", href: "#internship" },
+    { label: "BLOG", href: "#blog" },
     { label: "ACHIEVEMENTS", href: "#achievements" },
     { label: "CERTIFICATIONS", href: "#certifications" },
     { label: "LEADERSHIP", href: "#leadership" },

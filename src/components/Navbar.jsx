@@ -59,8 +59,8 @@ export default function Navbar() {
           </a>
 
           {/* Right: Desktop Links (lg:flex) */}
-          <nav className="hidden lg:flex items-center space-x-7">
-            <ul className="flex items-center space-x-6">
+          <nav className="hidden lg:flex items-center space-x-5 xl:space-x-7">
+            <ul className="flex items-center space-x-4 xl:space-x-6">
               {navLinks.map((link) => (
                 <li key={link.id}>
                   <a
