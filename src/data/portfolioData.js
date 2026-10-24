@@ -4,11 +4,11 @@
  */
 
 export const personalInfo = {
-  name: "HARIHARAN S.",
+  name: "HARIHARAN S",
   brandName: "HARIHARAN.S",
   primaryTitle: "AI ENGINEER",
-  specialties: ["ML ENGINEER", "DATA ANALYST", "SOFTWARE DEVELOPER"],
-  specialtiesString: "ML ENGINEER • DATA ANALYST • SOFTWARE DEVELOPER",
+  specialties: ["SPORTS DATA ANALYST", "ML ENGINEER", "SOFTWARE DEVELOPER"],
+  specialtiesString: "SPORTS DATA ANALYST · ML ENGINEER · SOFTWARE DEVELOPER",
   shortDescription: "Building intelligent systems with data, machine learning and software.",
   status: "OPEN TO INTERNSHIPS & OPPORTUNITIES",
   email: "hariharan8438431@gmail.com",

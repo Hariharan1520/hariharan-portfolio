@@ -52,22 +52,15 @@ export default function Hero() {
             </motion.div>
 
             {/* Primary Personal Identity */}
-            <motion.div variants={itemVariants} className="mb-1">
+            <motion.div variants={itemVariants} className="mb-3 sm:mb-4">
               <h1 className="text-4xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight text-text-primary">
                 {personalInfo.name}
               </h1>
             </motion.div>
 
-            {/* Professional Role */}
-            <motion.div variants={itemVariants} className="mb-4">
-              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-semibold tracking-tight text-gradient-accent">
-                {personalInfo.primaryTitle}
-              </h2>
-            </motion.div>
-
-            {/* Specialties Metadata */}
+            {/* Role Line */}
             <motion.div variants={itemVariants} className="mb-6">
-              <p className="text-xs sm:text-sm font-mono tracking-widest text-text-tertiary uppercase">
+              <p className="text-xs sm:text-sm font-mono tracking-widest text-text-tertiary uppercase leading-relaxed">
                 {personalInfo.specialtiesString}
               </p>
             </motion.div>
